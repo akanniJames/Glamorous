@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Akanni James — Cybersecurity Student Portfolio</title>
+<meta name="description" content="Student portfolio of Akanni James, cybersecurity and ethical hacking student at MIVA Open University.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="preloader" aria-hidden="true">
+  <div class="boot-box">
+    <div class="boot-logo">AJ // SECURE PORTFOLIO</div>
+    <div class="boot-lines"></div>
+    <div class="boot-track"><div class="boot-fill"></div></div>
+    <div class="boot-pct">0%</div>
+  </div>
+</div>
+
+<div class="hud-progress" id="hudProgress"></div>
+<div class="hud-corner hud-corner--tl"></div>
+<div class="hud-corner hud-corner--tr"></div>
+<div class="hud-corner hud-corner--bl"></div>
+<div class="hud-corner hud-corner--br"></div>
+<div class="hud-readout">
+  <span><span class="hud-dot"></span>secure session</span>
+  <span id="hudClock">--:--:--</span>
+  <span>lagos, ng</span>
+</div>
+
+<div class="status-strip">SYSTEM STATUS: ONLINE · LAGOS, NIGERIA · 3 YRS FIELD EXPERIENCE</div>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <div class="brand"><span class="mark">AJ</span>james.sec</div>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html" aria-current="page"><span class="idx">01</span>home</a></li>
+      <li><a href="about.html"><span class="idx">02</span>about</a></li>
+      <li><a href="projects.html"><span class="idx">03</span>projects</a></li>
+      <li><a href="planner.html"><span class="idx">04</span>planner</a></li>
+      <li><a href="contact.html"><span class="idx">05</span>contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+  <div class="container">
+
+    <section class="hero">
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow">student portfolio &amp; academic manager</div>
+          <h1 class="glitch-name">Akanni James</h1>
+          <p class="typed-line" data-typed="Welcome, I am Akanni James. This is my student portfolio where I display my work, skills and expertise. This page contains information about me and my career experience. Thank you and enjoy your time."></p>
+          <div class="btn-row">
+            <a href="projects.html" class="btn">view projects</a>
+            <a href="contact.html" class="btn btn--ghost">get in touch</a>
+          </div>
+        </div>
+
+        <div class="panel id-card reveal">
+          <div class="panel__bar">
+            <span class="dots"><span></span><span></span><span></span></span>
+            <span>id_scan.jpg</span>
+          </div>
+          <div class="id-card__body">
+            <div class="id-photo-wrap">
+              <img src="assets/akanni-james.jpg" alt="Portrait of Akanni James" onerror="this.src='https://placehold.co/480x600/0b0b09/ffd60a?text=AKANNI+JAMES&font=jetbrains-mono'">
+              <div class="scanline" aria-hidden="true"></div>
+            </div>
+            <div class="id-status"><span><span class="hud-dot"></span>identity verified</span><span>NG-LOS</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stat-bar reveal" aria-label="Quick stats">
+      <div class="stat">
+        <span class="num"><span data-count-to="3" data-suffix="+">0</span></span>
+        <span class="label">Years in Ethical Hacking</span>
+      </div>
+      <div class="stat">
+        <span class="num"><span data-count-to="70" data-suffix="%">0</span></span>
+        <span class="label">TryHackMe Jr Pentester</span>
+      </div>
+      <div class="stat">
+        <span class="num">BSc</span>
+        <span class="label">Computer Science, MIVA</span>
+      </div>
+      <div class="stat">
+        <span class="num">NG</span>
+        <span class="label">Based in Lagos, Nigeria</span>
+      </div>
+    </section>
+
+    <section>
+      <div class="eyebrow">about.md</div>
+      <h2>Brief Biography</h2>
+      <div class="panel reveal">
+        <div class="panel__bar">
+          <span class="dots"><span></span><span></span><span></span></span>
+          <span>bio.md</span>
+        </div>
+        <div class="panel__body">
+          <p>James is a cybersecurity analyst and ethical hacker based in Lagos, Nigeria, with three years of experience focused on ethical hacking and penetration testing. He holds a BSc in Computer Science from MIVA Open University and is passionate about making cyberspace usable and secure in Nigeria and every part of the world.</p>
+          <div class="tag-row">
+            <span class="tag tag--yellow">Ethical Hacking</span>
+            <span class="tag tag--yellow">Penetration Testing</span>
+            <span class="tag">Network Security</span>
+            <span class="tag">Python Scripting</span>
+          </div>
+
+          <div style="margin-top:22px; border-top:1px solid var(--border); padding-top:20px;">
+            <div class="eyebrow" style="margin-bottom:12px;">voice_log_001.mp3</div>
+            <div class="audio-log">
+              <audio id="introAudio" controls preload="none">
+                <source src="assets/intro-audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+              <span id="audioFallback" class="audio-fallback">// add assets/intro-audio.mp3 to enable the voice intro</span>
+            </div>
+          </div>
+
+          <div class="btn-row">
+            <a href="about.html" class="btn btn--ghost">read full bio →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    &copy; 2026 Akanni James · COS 106 Term Project · MIVA Open University
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
